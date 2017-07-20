@@ -12,26 +12,20 @@
            remote="githuborigin"
            sync-j="4" />
  
-	<project path="hardware" name="platform-hardware" remote="242origin"/>
-	<project path="libcore" name="platform-libcore" remote="242origin"/>
-	<project path="libnativehelper" name="platform-libnativehelper" remote="242origin"/>
-	<project path="ndk" name="platform-ndk" remote="242origin"/>
-	<project path="pdk" name="platform-pdk" remote="242origin"/>
-	<project path="platform_testing" name="platform-platform_testing" remote="242origin"/>
-	<project path="prebuilts" name="platform-prebuilts" remote="242origin"/>
-	<project path="sdk" name="platform-sdk" remote="242origin"/>
-	<project path="system" name="platform-system" remote="242origin"/>
-	<project path="tools" name="platform-tools" remote="242origin"/>
-	<project path="trusty" name="platform-trusty" remote="242origin"/>
 	<project path="vendor" name="platform-vendor" remote="242origin"/>
-	<project path="packages/apps/YYDRobotXYAR" name="yyd-packages-apps-YYDRobotXYAR" remote="242origin"/>
-	
-	
-	
-	
-	
-	
 	<project path="external" name="mt8163-external" />
+	
+	<project path="prebuilts" name="mt8163-prebuilts" />
+	<project path="trusty" name="mt8163-trusty" />
+	<project path="tools" name="mt8163-tools" />
+	<project path="system" name="mt8163-system" />
+	<project path="sdk" name="mt8163-sdk" />
+	<project path="platform_testing" name="mt8163-platform_testing" />
+	<project path="pdk" name="mt8163-pdk" />
+	<project path="ndk" name="mt8163-ndk" />
+	<project path="libnativehelper" name="mt8163-libnativehelper" />
+	<project path="libcore" name="mt8163-libcore" />
+	<project path="hardware" name="mt8163-hardware" />
 	<project path="docs" name="mt8163-docs" />
 	<project path="development" name="mt8163-development" />
 	<project path="developers" name="mt8163-developers" />
@@ -149,6 +143,7 @@
   <project path="packages/apps/YYDRobotMediaPush" name="yyd-packages-apps-YYDRobotMediaPush" remote="private"/>
   <project path="packages/apps/opencv" name="yyd-packages-apps-opencv" remote="private"/>
   <project path="packages/apps/FoundPeople" name="yyd-packages-apps-FoundPeople" remote="private"/>
+  <project path="packages/apps/YYDRobotXYAR" name="yyd-packages-apps-YYDRobotXYAR" remote="private"/>
   <project path="packages/experimental" name="mt8163-packages-experimental"  />
   <project path="packages/inputmethods" name="mt8163-packages-inputmethods" />
   <project path="packages/providers" name="mt8163-packages-providers" />
