@@ -12,7 +12,7 @@
            remote="githuborigin"
            sync-j="4" />
  
-	<project path="vendor" name="platform-vendor" remote="242origin"/>
+	<project path="vendor" name="mt8163-vendor" />
 	<project path="external" name="mt8163-external" />
 	
 	<project path="prebuilts" name="mt8163-prebuilts" />
