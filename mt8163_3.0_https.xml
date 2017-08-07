@@ -146,10 +146,10 @@
   <project path="packages/services" name="mt8163-packages-services" />
   <project path="packages/wallpapers" name="mt8163-packages-wallpapers" />  
   <project path="yongyida" name="mt8163-yongyida" />
-  <project path="packages/apps/YYDRobotLauncher" name="yyd-packages-apps-YYDRobotLauncher" remote="private"/>
-  <project path="packages/apps/YYDRobotSettings" name="yyd-packages-apps-YYDRobotSettings" remote="private"/>
-  <project path="packages/apps/YYDRobotPhoto" name="yyd-packages-apps-YYDRobotPhoto" remote="private"/>
-  <project path="packages/apps/YYDRobotKupai" name="yyd-packages-apps-YYDRobotKupai" remote="private"/>
-  <project path="packages/apps/YYDRobotDaydayAlarm" name="yyd-packages-apps-YYDRobotDaydayAlarm" remote="private"/>
+  <project path="packages/apps/YYDRobotLauncher3.0" name="yyd-packages-apps-YYDRobotLauncher3.0" remote="private"/>
+  <project path="packages/apps/YYDRobotSetting3.0" name="yyd-packages-apps-YYDRobotSetting3.0" remote="private"/>
+  <project path="packages/apps/YYDRobotPhoto3.0" name="yyd-packages-apps-YYDRobotPhoto3.0" remote="private"/>
+  <project path="packages/apps/YYDRobotKupai3.0" name="yyd-packages-apps-YYDRobotKupai3.0" remote="private"/>
+  <project path="packages/apps/YYDRobotDaydayAlarm3.0" name="yyd-packages-apps-YYDRobotDaydayAlarm3.0" remote="private"/>
  
 </manifest>
