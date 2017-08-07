@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+ 
+    <remote  name="242origin"
+           fetch="../" />
+    <remote  name="githuborigin"
+           fetch="ssh://git@github.com/yos-two/" />
+    <remote  name="private"
+           revision="refs/heads/master"
+           fetch="ssh://git@github.com/yydrobot/" />
+    <default revision="master"
+           remote="githuborigin"
+           sync-j="4" />
+ 
+    <project path="abi" name="platform-abi" groups="pdk" remote="242origin" />
+    <project path="art" name="platform-art" groups="pdk" remote="242origin" />
+    <project path="bionic" name="platform-bionic" remote="242origin"/>
+	<project path="bootable" name="platform-bootable" remote="242origin"/>
+ 	<project path="build" name="platform-build" remote="242origin">
+    		<copyfile src="core/root.mk" dest="Makefile" />
+    </project>
+	<project path="cts" name="platform-cts" remote="242origin"/>
+	<project path="dalvik" name="platform-dalvik" remote="242origin"/>
+	<project path="developers" name="platform-developers" remote="242origin"/>
+	<project path="development" name="platform-development" remote="242origin"/>
+	<project path="docs" name="platform-docs" remote="242origin"/>
+	<project path="external" name="platform-external" remote="242origin"/>
+	<project path="hardware" name="platform-hardware" remote="242origin"/>
+	<project path="libcore" name="platform-libcore" remote="242origin"/>
+	<project path="libnativehelper" name="platform-libnativehelper" remote="242origin"/>
+	<project path="ndk" name="platform-ndk" remote="242origin"/>
+	<project path="pdk" name="platform-pdk" remote="242origin"/>
+	<project path="platform_testing" name="platform-platform_testing" remote="242origin"/>
+	<project path="prebuilts" name="platform-prebuilts" remote="242origin"/>
+	<project path="sdk" name="platform-sdk" remote="242origin"/>
+	<project path="system" name="platform-system" remote="242origin"/>
+	<project path="tools" name="platform-tools" remote="242origin"/>
+	<project path="trusty" name="platform-trusty" remote="242origin"/>
+	<project path="vendor" name="platform-vendor" remote="242origin"/>
+	<project path="packages/apps/YYDRobotXYAR" name="yyd-packages-apps-YYDRobotXYAR" remote="242origin"/>
+	
+   <project path="device" name="mt8163-device" />
+  <project path="frameworks/av" name="mt8163-frameworks-av" />
+  <project path="frameworks/base" name="mt8163-frameworks-base" />
+  <project path="frameworks/base/docs" name="mt8163-frameworks-base-docs" />
+  <project path="frameworks/compile" name="mt8163-frameworks-compile" />
+  <project path="frameworks/ex" name="mt8163-frameworks-ex" />
+  <project path="frameworks/minikin" name="mt8163-frameworks-minikin" />
+  <project path="frameworks/ml" name="mt8163-frameworks-ml" />
+  <project path="frameworks/multidex" name="mt8163-frameworks-multidex" />
+  <project path="frameworks/native" name="mt8163-frameworks-native" />
+  <project path="frameworks/opt" name="mt8163-frameworks-opt" />
+  <project path="frameworks/rs" name="mt8163-frameworks-rs" />
+  <project path="frameworks/support" name="mt8163-frameworks-support" />
+  <project path="frameworks/volley" name="mt8163-frameworks-volley" />
+  <project path="frameworks/webview" name="mt8163-frameworks-webview" />
+  <project path="frameworks/wilhelm" name="mt8163-frameworks-wilhelm" /> 
+  <project path="kernel-3.18" name="mt8163-kernel-3.18" />
+  <project path="packages/apps/AdupsFotaApp" name="mt8163-packages-apps-AdupsFotaApp" />
+  <project path="packages/apps/BasicSmsReceiver" name="mt8163-packages-apps-BasicSmsReceiver" />
+  <project path="packages/apps/Bluetooth" name="mt8163-packages-apps-Bluetooth" />
+  <project path="packages/apps/Browser" name="mt8163-packages-apps-Browser" />
+  <project path="packages/apps/Calculator" name="mt8163-packages-apps-Calculator" />
+  <project path="packages/apps/Calendar" name="mt8163-packages-apps-Calendar" />
+  <project path="packages/apps/Camera" name="mt8163-packages-apps-Camera" />
+  <project path="packages/apps/Camera2" name="mt8163-packages-apps-Camera2" />
+  <project path="packages/apps/CarrierConfig" name="mt8163-packages-apps-CarrierConfig" />
+  <project path="packages/apps/CellBroadcastReceiver" name="mt8163-packages-apps-CellBroadcastReceiver" />
+  <project path="packages/apps/CertInstaller" name="mt8163-packages-apps-CertInstaller" />
+  <project path="packages/apps/Contacts" name="mt8163-packages-apps-Contacts" />
+  <project path="packages/apps/ContactsCommon" name="mt8163-packages-apps-ContactsCommon" />
+  <project path="packages/apps/DeskClock" name="mt8163-packages-apps-DeskClock" />
+  <project path="packages/apps/Dialer" name="mt8163-packages-apps-Dialer" />
+  <project path="packages/apps/Email" name="mt8163-packages-apps-Email" />
+  <project path="packages/apps/ExactCalculator" name="mt8163-packages-apps-ExactCalculator" />
+  <project path="packages/apps/Exchange" name="mt8163-packages-apps-Exchange" />
+  <project path="packages/apps/FMRadio" name="mt8163-packages-apps-FMRadio" />
+  <project path="packages/apps/FpgaLoadTool" name="mt8163-packages-apps-FpgaLoadTool" />
+  <project path="packages/apps/Gallery" name="mt8163-packages-apps-Gallery" />
+  <project path="packages/apps/Gallery2" name="mt8163-packages-apps-Gallery2" />
+  <project path="packages/apps/HTMLViewer" name="mt8163-packages-apps-HTMLViewer" />
+  <project path="packages/apps/InCallUI" name="mt8163-packages-apps-InCallUI" />
+  <project path="packages/apps/KeyChain" name="mt8163-packages-apps-KeyChain" />
+  <project path="packages/apps/Launcher2" name="mt8163-packages-apps-Launcher2" />
+  <project path="packages/apps/Launcher3" name="mt8163-packages-apps-Launcher3" />
+  <project path="packages/apps/LegacyCamera" name="mt8163-packages-apps-LegacyCamera" />
+  <project path="packages/apps/ManagedProvisioning" name="mt8163-packages-apps-ManagedProvisioning" />
+  <project path="packages/apps/Messaging" name="mt8163-packages-apps-Messaging" />
+  <project path="packages/apps/MiramemsGsensorTool" name="mt8163-packages-apps-MiramemsGsensorTool" />
+  <project path="packages/apps/Music" name="mt8163-packages-apps-Music" />
+  <project path="packages/apps/MusicFX" name="mt8163-packages-apps-MusicFX" />
+  <project path="packages/apps/Nfc" name="mt8163-packages-apps-Nfc" />
+  <project path="packages/apps/OneTimeInitializer" name="mt8163-packages-apps-OneTimeInitializer" />
+  <project path="packages/apps/PackageInstaller" name="mt8163-packages-apps-PackageInstaller" />
+  <project path="packages/apps/PhoneCommon" name="mt8163-packages-apps-PhoneCommon" />
+  <project path="packages/apps/Protips" name="mt8163-packages-apps-Protips" />
+  <project path="packages/apps/Provision" name="mt8163-packages-apps-Provision" />
+  <project path="packages/apps/QuickSearchBox" name="mt8163-packages-apps-QuickSearchBox" />
+  <project path="packages/apps/Settings" name="mt8163-packages-apps-Settings" />
+  <project path="packages/apps/SoundRecorder" name="mt8163-packages-apps-SoundRecorder" />
+  <project path="packages/apps/SpeechRecorder" name="mt8163-packages-apps-SpeechRecorder" />
+  <project path="packages/apps/SpareParts" name="mt8163-packages-apps-SpareParts" />
+  <project path="packages/apps/Stk" name="mt8163-packages-apps-Stk" />
+  <project path="packages/apps/Tag" name="mt8163-packages-apps-Tag"  />
+  <project path="packages/apps/TvSettings" name="mt8163-packages-apps-TvSettings" />
+  <project path="packages/apps/Terminal" name="mt8163-packages-apps-Terminal" />
+  <project path="packages/apps/YYDGameBraveJelly" name="yyd-packages-apps-YYDGameBraveJelly" remote="private"/>
+  <project path="packages/apps/YYDGameRunningRich" name="yyd-packages-apps-YYDGameRunningRich" remote="private"/>
+  <project path="packages/apps/YYDGameSaveSheep" name="yyd-packages-apps-YYDGameSaveSheep" remote="private"/>
+  <project path="packages/apps/YYDMoliVideo" name="yyd-packages-apps-YYDMoliVideo" remote="private"/>
+  <project path="packages/apps/YYDRobotAppUpdate" name="yyd-packages-apps-YYDRobotAppUpdate" remote="private"/>
+  <project path="packages/apps/YYDRobotArtMuseum" name="yyd-packages-apps-YYDRobotArtMuseum" remote="private"/>
+  <project path="packages/apps/YYDRobotBreathLed" name="yyd-packages-apps-YYDRobotBreathLed" remote="private"/>
+  <project path="packages/apps/YYDRobotBreathledService" name="yyd-packages-apps-YYDRobotBreathledService" remote="private"/>
+  <project path="packages/apps/YYDRobotFaceRecognizer" name="yyd-packages-apps-YYDRobotFaceRecognizer" remote="private"/>
+  <project path="packages/apps/YYDRobotFactoryTest" name="yyd-packages-apps-YYDRobotFactoryTest" remote="private"/>
+  <project path="packages/apps/YYDRobotFloatButton" name="yyd-packages-apps-YYDRobotFloatButton" remote="private"/>
+  <project path="packages/apps/YYDRobotFoundPeople" name="yyd-packages-apps-YYDRobotFoundPeople" remote="private"/>
+  <project path="packages/apps/YYDRobotGameCenter" name="yyd-packages-apps-YYDRobotGameCenter" remote="private"/>
+  <project path="packages/apps/YYDRobotHappyCastTV" name="yyd-packages-apps-YYDRobotHappyCastTV" remote="private"/>
+  <project path="packages/apps/YYDRobotIDHelper" name="yyd-packages-apps-YYDRobotIDHelper" remote="private"/>
+  <project path="packages/apps/YYDRobotInfrared" name="yyd-packages-apps-YYDRobotInfrared" remote="private"/>
+  <project path="packages/apps/YYDRobotLightPenTest" name="yyd-packages-apps-YYDRobotLightPenTest" remote="private"/>
+  <project path="packages/apps/YYDRobotLockScreen" name="yyd-packages-apps-YYDRobotLockScreen" remote="private"/>
+  <project path="packages/apps/YYDRobotMotorService" name="yyd-packages-apps-YYDRobotMotorService" remote="private"/>
+  <project path="packages/apps/YYDRobotProjectionTouch" name="yyd-packages-apps-YYDRobotProjectionTouch" remote="private"/>
+  <project path="packages/apps/YYDRobotProjectorController" name="yyd-packages-apps-YYDRobotProjectorController" remote="private"/>
+  <project path="packages/apps/YYDRobotQrCode" name="yyd-packages-apps-YYDRobotQrCode" remote="private"/>
+  <project path="packages/apps/YYDRobotResourceManager" name="yyd-packages-apps-YYDRobotResourceManager" remote="private"/>
+  <project path="packages/apps/YYDRobotSyn" name="yyd-packages-apps-YYDRobotSyn" remote="private"/>
+  <project path="packages/apps/YYDRobotTranslation" name="yyd-packages-apps-YYDRobotTranslation" remote="private"/>
+  <project path="packages/apps/YYDRobotVideo" name="yyd-packages-apps-YYDRobotVideo" remote="private"/>
+  <project path="packages/apps/YYDRobotVideoPlayer" name="yyd-packages-apps-YYDRobotVideoPlayer" remote="private"/>
+  <project path="packages/apps/YYDRobotVoiceBattery" name="yyd-packages-apps-YYDRobotVoiceBattery" remote="private"/>
+  <project path="packages/apps/YYDRobotVoiceMainService" name="yyd-packages-apps-YYDRobotVoiceMainService" remote="private"/>
+  <project path="packages/apps/YYDRobotVoiceMaster" name="yyd-packages-apps-YYDRobotVoiceMaster" remote="private"/>
+  <project path="packages/apps/YYDRobotWPS" name="yyd-packages-apps-YYDRobotWPS" remote="private"/>
+  <project path="packages/apps/YYDRobotXMMusicSearch" name="yyd-packages-apps-YYDRobotXMMusicSearch" remote="private"/>
+  <project path="packages/apps/YYDRobotMediaPush" name="yyd-packages-apps-YYDRobotMediaPush" remote="private"/>
+  <project path="packages/apps/opencv" name="yyd-packages-apps-opencv" remote="private"/>
+  <project path="packages/apps/FoundPeople" name="yyd-packages-apps-FoundPeople" remote="private"/>
+  <project path="packages/apps/YYDRobotLauncher3.0" name="yyd-packages-apps-YYDRobotLauncher3.0" remote="private"/>
+  <project path="packages/apps/YYDRobotSetting3.0" name="yyd-packages-apps-YYDRobotSetting3.0" remote="private"/>
+  <project path="packages/apps/YYDRobotPhoto3.0" name="yyd-packages-apps-YYDRobotPhoto3.0" remote="private"/>
+  <project path="packages/apps/YYDRobotKupai3.0" name="yyd-packages-apps-YYDRobotKupai3.0" remote="private"/>
+  <project path="packages/apps/YYDRobotDaydayAlarm3.0" name="yyd-packages-apps-YYDRobotDaydayAlarm3.0" remote="private"/>
+  <project path="packages/experimental" name="mt8163-packages-experimental"  />
+  <project path="packages/inputmethods" name="mt8163-packages-inputmethods" />
+  <project path="packages/providers" name="mt8163-packages-providers" />
+  <project path="packages/screensavers" name="mt8163-packages-screensavers" />
+  <project path="packages/services" name="mt8163-packages-services" />
+  <project path="packages/wallpapers" name="mt8163-packages-wallpapers" />  
+  <project path="yongyida" name="mt8163-yongyida" />
+ 
+</manifest>
