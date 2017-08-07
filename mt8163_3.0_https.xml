@@ -12,33 +12,32 @@
            remote="githuborigin"
            sync-j="4" />
  
-    <project path="abi" name="platform-abi" groups="pdk" remote="242origin" />
-    <project path="art" name="platform-art" groups="pdk" remote="242origin" />
-    <project path="bionic" name="platform-bionic" remote="242origin"/>
-	<project path="bootable" name="platform-bootable" remote="242origin"/>
- 	<project path="build" name="platform-build" remote="242origin">
+	<project path="vendor" name="mt8163-vendor" />
+	<project path="external" name="mt8163-external" />
+	
+	<project path="prebuilts" name="mt8163-prebuilts" />
+	<project path="trusty" name="mt8163-trusty" />
+	<project path="tools" name="mt8163-tools" />
+	<project path="system" name="mt8163-system" />
+	<project path="sdk" name="mt8163-sdk" />
+	<project path="platform_testing" name="mt8163-platform_testing" />
+	<project path="pdk" name="mt8163-pdk" />
+	<project path="ndk" name="mt8163-ndk" />
+	<project path="libnativehelper" name="mt8163-libnativehelper" />
+	<project path="libcore" name="mt8163-libcore" />
+	<project path="hardware" name="mt8163-hardware" />
+	<project path="docs" name="mt8163-docs" />
+	<project path="development" name="mt8163-development" />
+	<project path="developers" name="mt8163-developers" />
+	<project path="dalvik" name="mt8163-dalvik" />
+	<project path="cts" name="mt8163-cts" />
+ 	<project path="build" name="mt8163-build" >
     		<copyfile src="core/root.mk" dest="Makefile" />
     </project>
-	<project path="cts" name="platform-cts" remote="242origin"/>
-	<project path="dalvik" name="platform-dalvik" remote="242origin"/>
-	<project path="developers" name="platform-developers" remote="242origin"/>
-	<project path="development" name="platform-development" remote="242origin"/>
-	<project path="docs" name="platform-docs" remote="242origin"/>
-	<project path="external" name="platform-external" remote="242origin"/>
-	<project path="hardware" name="platform-hardware" remote="242origin"/>
-	<project path="libcore" name="platform-libcore" remote="242origin"/>
-	<project path="libnativehelper" name="platform-libnativehelper" remote="242origin"/>
-	<project path="ndk" name="platform-ndk" remote="242origin"/>
-	<project path="pdk" name="platform-pdk" remote="242origin"/>
-	<project path="platform_testing" name="platform-platform_testing" remote="242origin"/>
-	<project path="prebuilts" name="platform-prebuilts" remote="242origin"/>
-	<project path="sdk" name="platform-sdk" remote="242origin"/>
-	<project path="system" name="platform-system" remote="242origin"/>
-	<project path="tools" name="platform-tools" remote="242origin"/>
-	<project path="trusty" name="platform-trusty" remote="242origin"/>
-	<project path="vendor" name="platform-vendor" remote="242origin"/>
-	<project path="packages/apps/YYDRobotXYAR" name="yyd-packages-apps-YYDRobotXYAR" remote="242origin"/>
-	
+	<project path="bootable" name="mt8163-bootable" />
+    <project path="bionic" name="mt8163-bionic" />
+    <project path="art" name="mt8163-art"  />
+    <project path="abi" name="mt8163-abi" />
    <project path="device" name="mt8163-device" />
   <project path="frameworks/av" name="mt8163-frameworks-av" />
   <project path="frameworks/base" name="mt8163-frameworks-base" />
@@ -120,30 +119,31 @@
   <project path="packages/apps/YYDRobotHappyCastTV" name="yyd-packages-apps-YYDRobotHappyCastTV" remote="private"/>
   <project path="packages/apps/YYDRobotIDHelper" name="yyd-packages-apps-YYDRobotIDHelper" remote="private"/>
   <project path="packages/apps/YYDRobotInfrared" name="yyd-packages-apps-YYDRobotInfrared" remote="private"/>
+  <project path="packages/apps/YYDRobotLauncher" name="yyd-packages-apps-YYDRobotLauncher" remote="private"/>
   <project path="packages/apps/YYDRobotLightPenTest" name="yyd-packages-apps-YYDRobotLightPenTest" remote="private"/>
   <project path="packages/apps/YYDRobotLockScreen" name="yyd-packages-apps-YYDRobotLockScreen" remote="private"/>
   <project path="packages/apps/YYDRobotMotorService" name="yyd-packages-apps-YYDRobotMotorService" remote="private"/>
+  <project path="packages/apps/YYDRobotPhotos" name="yyd-packages-apps-YYDRobotPhotos" remote="private"/>
   <project path="packages/apps/YYDRobotProjectionTouch" name="yyd-packages-apps-YYDRobotProjectionTouch" remote="private"/>
   <project path="packages/apps/YYDRobotProjectorController" name="yyd-packages-apps-YYDRobotProjectorController" remote="private"/>
   <project path="packages/apps/YYDRobotQrCode" name="yyd-packages-apps-YYDRobotQrCode" remote="private"/>
   <project path="packages/apps/YYDRobotResourceManager" name="yyd-packages-apps-YYDRobotResourceManager" remote="private"/>
+  <project path="packages/apps/YYDRobotSettings" name="yyd-packages-apps-YYDRobotSettings" remote="private"/>
   <project path="packages/apps/YYDRobotSyn" name="yyd-packages-apps-YYDRobotSyn" remote="private"/>
   <project path="packages/apps/YYDRobotTranslation" name="yyd-packages-apps-YYDRobotTranslation" remote="private"/>
   <project path="packages/apps/YYDRobotVideo" name="yyd-packages-apps-YYDRobotVideo" remote="private"/>
   <project path="packages/apps/YYDRobotVideoPlayer" name="yyd-packages-apps-YYDRobotVideoPlayer" remote="private"/>
   <project path="packages/apps/YYDRobotVoiceBattery" name="yyd-packages-apps-YYDRobotVoiceBattery" remote="private"/>
+  <project path="packages/apps/YYDRobotVoiceCamera" name="yyd-packages-apps-YYDRobotVoiceCamera" remote="private"/>
   <project path="packages/apps/YYDRobotVoiceMainService" name="yyd-packages-apps-YYDRobotVoiceMainService" remote="private"/>
   <project path="packages/apps/YYDRobotVoiceMaster" name="yyd-packages-apps-YYDRobotVoiceMaster" remote="private"/>
+  <project path="packages/apps/YYDRobotVoiceNotification" name="yyd-packages-apps-YYDRobotVoiceNotification" remote="private"/>
   <project path="packages/apps/YYDRobotWPS" name="yyd-packages-apps-YYDRobotWPS" remote="private"/>
   <project path="packages/apps/YYDRobotXMMusicSearch" name="yyd-packages-apps-YYDRobotXMMusicSearch" remote="private"/>
   <project path="packages/apps/YYDRobotMediaPush" name="yyd-packages-apps-YYDRobotMediaPush" remote="private"/>
   <project path="packages/apps/opencv" name="yyd-packages-apps-opencv" remote="private"/>
   <project path="packages/apps/FoundPeople" name="yyd-packages-apps-FoundPeople" remote="private"/>
-  <project path="packages/apps/YYDRobotLauncher3.0" name="yyd-packages-apps-YYDRobotLauncher3.0" remote="private"/>
-  <project path="packages/apps/YYDRobotSetting3.0" name="yyd-packages-apps-YYDRobotSetting3.0" remote="private"/>
-  <project path="packages/apps/YYDRobotPhoto3.0" name="yyd-packages-apps-YYDRobotPhoto3.0" remote="private"/>
-  <project path="packages/apps/YYDRobotKupai3.0" name="yyd-packages-apps-YYDRobotKupai3.0" remote="private"/>
-  <project path="packages/apps/YYDRobotDaydayAlarm3.0" name="yyd-packages-apps-YYDRobotDaydayAlarm3.0" remote="private"/>
+  <project path="packages/apps/YYDRobotXYAR" name="yyd-packages-apps-YYDRobotXYAR" remote="private"/>
   <project path="packages/experimental" name="mt8163-packages-experimental"  />
   <project path="packages/inputmethods" name="mt8163-packages-inputmethods" />
   <project path="packages/providers" name="mt8163-packages-providers" />
@@ -151,5 +151,10 @@
   <project path="packages/services" name="mt8163-packages-services" />
   <project path="packages/wallpapers" name="mt8163-packages-wallpapers" />  
   <project path="yongyida" name="mt8163-yongyida" />
+  <project path="packages/apps/YYDRobotLauncher3.0" name="yyd-packages-apps-YYDRobotLauncher3.0" remote="private"/>
+  <project path="packages/apps/YYDRobotSetting3.0" name="yyd-packages-apps-YYDRobotSetting3.0" remote="private"/>
+  <project path="packages/apps/YYDRobotPhoto3.0" name="yyd-packages-apps-YYDRobotPhoto3.0" remote="private"/>
+  <project path="packages/apps/YYDRobotKupai3.0" name="yyd-packages-apps-YYDRobotKupai3.0" remote="private"/>
+  <project path="packages/apps/YYDRobotDaydayAlarm3.0" name="yyd-packages-apps-YYDRobotDaydayAlarm3.0" remote="private"/>
  
 </manifest>
