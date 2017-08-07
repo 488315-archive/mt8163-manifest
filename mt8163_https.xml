@@ -141,11 +141,6 @@
   <project path="packages/apps/YYDRobotWPS" name="yyd-packages-apps-YYDRobotWPS" remote="private"/>
   <project path="packages/apps/YYDRobotXMMusicSearch" name="yyd-packages-apps-YYDRobotXMMusicSearch" remote="private"/>
   <project path="packages/apps/YYDRobotMediaPush" name="yyd-packages-apps-YYDRobotMediaPush" remote="private"/>
-  <project path="packages/apps/YYDRobotLauncher3.0" name="yyd-packages-apps-YYDRobotLauncher3.0" remote="private"/>
-  <project path="packages/apps/YYDRobotSetting3.0" name="yyd-packages-apps-YYDRobotSetting3.0" remote="private"/>
-  <project path="packages/apps/YYDRobotPhoto3.0" name="yyd-packages-apps-YYDRobotPhoto3.0" remote="private"/>
-  <project path="packages/apps/YYDRobotKupai3.0" name="yyd-packages-apps-YYDRobotKupai3.0" remote="private"/>
-  <project path="packages/apps/YYDRobotDaydayAlarm3.0" name="yyd-packages-apps-YYDRobotDaydayAlarm3.0" remote="private"/>
   <project path="packages/apps/opencv" name="yyd-packages-apps-opencv" remote="private"/>
   <project path="packages/apps/FoundPeople" name="yyd-packages-apps-FoundPeople" remote="private"/>
   <project path="packages/apps/YYDRobotXYAR" name="yyd-packages-apps-YYDRobotXYAR" remote="private"/>
