@@ -151,5 +151,8 @@
   <project path="packages/apps/YYDRobotPhoto3.0" name="yyd-packages-apps-YYDRobotPhoto3.0" remote="private"/>
   <project path="packages/apps/YYDRobotKupai3.0" name="yyd-packages-apps-YYDRobotKupai3.0" remote="private"/>
   <project path="packages/apps/YYDRobotDaydayAlarm3.0" name="yyd-packages-apps-YYDRobotDaydayAlarm3.0" remote="private"/>
- 
+  <project path="packages/apps/YYDRobotGL1" name="yyd-packages-app-YYDRobotGL1" remote="private"/>
+  <project path="packages/apps/YYDRobotGL2" name="yyd-packages-app-YYDRobotGL2" remote="private"/>
+  <project path="packages/apps/YYDRobotGL3" name="yyd-packages-app-YYDRobotGL3" remote="private"/>
+  
 </manifest>
