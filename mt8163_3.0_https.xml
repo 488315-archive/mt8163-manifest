@@ -33,6 +33,7 @@
 	<project path="cts" name="mt8163-cts" />
  	<project path="build" name="mt8163-build" >
     		<copyfile src="core/root.mk" dest="Makefile" />
+    		<copyfile src="core/copy.sh" dest="copy.sh" />
     </project>
 	<project path="bootable" name="mt8163-bootable" />
     <project path="bionic" name="mt8163-bionic" />
