@@ -33,6 +33,7 @@
 	<project path="cts" name="mt8163-cts" />
  	<project path="build" name="mt8163-build" >
     		<copyfile src="core/root.mk" dest="Makefile" />
+    		<copyfile src="core/copyfile.sh" dest="copyfile.sh" />
     </project>
 	<project path="bootable" name="mt8163-bootable" />
     <project path="bionic" name="mt8163-bionic" />
@@ -141,6 +142,8 @@
   <project path="packages/apps/YYDRobotWPS" name="yyd-packages-apps-YYDRobotWPS" remote="private"/>
   <project path="packages/apps/YYDRobotXMMusicSearch" name="yyd-packages-apps-YYDRobotXMMusicSearch" remote="private"/>
   <project path="packages/apps/YYDRobotMediaPush" name="yyd-packages-apps-YYDRobotMediaPush" remote="private"/>
+  <project path="packages/apps/YYDRobotHeath" name="yyd-packages-apps-YYDRobotHeath" remote="private"/>
+  
   <project path="packages/apps/opencv" name="yyd-packages-apps-opencv" remote="private"/>
   <project path="packages/apps/FoundPeople" name="yyd-packages-apps-FoundPeople" remote="private"/>
   <project path="packages/apps/YYDRobotXYAR" name="yyd-packages-apps-YYDRobotXYAR" remote="private"/>
