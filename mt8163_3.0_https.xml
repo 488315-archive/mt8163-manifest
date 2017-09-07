@@ -126,7 +126,6 @@
   <project path="packages/apps/YYDRobotXMMusicSearch" name="yyd-packages-apps-YYDRobotXMMusicSearch" remote="private"/>
   <project path="packages/apps/YYDRobotVideo" name="yyd-packages-apps-YYDRobotVideo" remote="private"/>
   <project path="packages/apps/opencv" name="yyd-packages-apps-opencv" remote="private"/>
-  <project path="packages/apps/FoundPeople" name="yyd-packages-apps-FoundPeople" remote="private"/>
   <project path="packages/apps/YYDRobotXYAR" name="yyd-packages-apps-YYDRobotXYAR" remote="private"/>
   <project path="packages/experimental" name="mt8163-packages-experimental"  />
   <project path="packages/inputmethods" name="mt8163-packages-inputmethods" />
