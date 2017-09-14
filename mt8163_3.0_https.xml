@@ -145,5 +145,5 @@
   <project path="packages/apps/YYDRobotGL2_3.0" name="yyd-packages-app-YYDRobotGL2_3.0" remote="private"/>
   <project path="packages/apps/YYDRobotGL3_3.0" name="yyd-packages-app-YYDRobotGL3_3.0" remote="private"/>
   <project path="packages/apps/YYDRobotVoiceBattery3.0" name="yyd-packages-app-YYDRobotVoiceBattery3.0" remote="private"/>	
-  
+  <project path="packages/apps/YYDRobotVoiceMaster3.0" name="yyd-packages-app-YYDRobotVoiceMaster3.0" remote="private"/>
 </manifest>
