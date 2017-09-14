@@ -134,8 +134,8 @@
   <project path="packages/services" name="mt8163-packages-services" />
   <project path="packages/wallpapers" name="mt8163-packages-wallpapers" />  
   <project path="yongyida" name="mt8163-yongyida" />
-  <project path="packages/apps/YYDRobotLauncher3.0" name="yyd-packages-apps-YYDRobotLauncher3.0" remote="private" revison="xiaoyong"/>
-  <project path="packages/apps/YYDRobotSetting3.0" name="yyd-packages-apps-YYDRobotSetting3.0" remote="private"/>
+  <project path="packages/apps/YYDRobotLauncher3.0" name="yyd-packages-apps-YYDRobotLauncher3.0" remote="private" />
+  <project path="packages/apps/YYDRobotSetting3.0" name="yyd-packages-apps-YYDRobotSetting3.0" remote="private" revison="xiaoyong"/>
   <project path="packages/apps/YYDRobotPhoto3.0" name="yyd-packages-apps-YYDRobotPhoto3.0" remote="private"/>
   <project path="packages/apps/YYDRobotKupai3.0" name="yyd-packages-apps-YYDRobotKupai3.0" remote="private"/>
   <project path="packages/apps/YYDRobotDaydayAlarm3.0" name="yyd-packages-apps-YYDRobotDaydayAlarm3.0" remote="private"/>
