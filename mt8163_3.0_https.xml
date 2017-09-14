@@ -119,9 +119,7 @@
   <project path="packages/apps/YYDRobotProjectorController" name="yyd-packages-apps-YYDRobotProjectorController" remote="private"/>
   <project path="packages/apps/YYDRobotSyn" name="yyd-packages-apps-YYDRobotSyn" remote="private"/>
   <project path="packages/apps/YYDRobotTranslation" name="yyd-packages-apps-YYDRobotTranslation" remote="private"/>
-  <project path="packages/apps/YYDRobotVoiceBattery" name="yyd-packages-apps-YYDRobotVoiceBattery" remote="private"/>
   <project path="packages/apps/YYDRobotVoiceMainService" name="yyd-packages-apps-YYDRobotVoiceMainService" remote="private"/>
-  <project path="packages/apps/YYDRobotVoiceMaster" name="yyd-packages-apps-YYDRobotVoiceMaster" remote="private"/>
   <project path="packages/apps/YYDRobotWPS" name="yyd-packages-apps-YYDRobotWPS" remote="private"/>
   <project path="packages/apps/YYDRobotXMMusicSearch" name="yyd-packages-apps-YYDRobotXMMusicSearch" remote="private"/>
   <project path="packages/apps/YYDRobotVideo" name="yyd-packages-apps-YYDRobotVideo" remote="private"/>
