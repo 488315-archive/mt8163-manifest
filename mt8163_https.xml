@@ -152,6 +152,6 @@
   <project path="packages/screensavers" name="mt8163-packages-screensavers" />
   <project path="packages/services" name="mt8163-packages-services" />
   <project path="packages/wallpapers" name="mt8163-packages-wallpapers" />  
-  <project path="yongyida" name="mt8163-yongyida" revison="YOS2.0"/>
+  <project path="yongyida" name="mt8163-yongyida"/>
  
 </manifest>
