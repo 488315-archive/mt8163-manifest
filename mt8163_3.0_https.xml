@@ -41,7 +41,7 @@
     <project path="abi" name="mt8163-abi" />
    <project path="device" name="mt8163-device" />
   <project path="frameworks/av" name="mt8163-frameworks-av" />
-  <project path="frameworks/base" name="mt8163-frameworks-base" />
+  <project path="frameworks/base" name="mt8163-frameworks-base" revison="YOS3.0" />
   <project path="frameworks/base/docs" name="mt8163-frameworks-base-docs" />
   <project path="frameworks/compile" name="mt8163-frameworks-compile" />
   <project path="frameworks/ex" name="mt8163-frameworks-ex" />
