@@ -96,7 +96,7 @@
   <project path="packages/apps/Protips" name="mt8163-packages-apps-Protips" />
   <project path="packages/apps/Provision" name="mt8163-packages-apps-Provision" />
   <project path="packages/apps/QuickSearchBox" name="mt8163-packages-apps-QuickSearchBox" />
-  <project path="packages/apps/Settings" name="mt8163-packages-apps-Settings" />
+  <project path="packages/apps/Settings" name="mt8163-packages-apps-Settings" revison="YOS3.0"/>
   <project path="packages/apps/SoundRecorder" name="mt8163-packages-apps-SoundRecorder" />
   <project path="packages/apps/SpeechRecorder" name="mt8163-packages-apps-SpeechRecorder" />
   <project path="packages/apps/SpareParts" name="mt8163-packages-apps-SpareParts" />
