@@ -41,7 +41,7 @@
     <project path="abi" name="mt8163-abi" />
    <project path="device" name="mt8163-device" />
   <project path="frameworks/av" name="mt8163-frameworks-av" />
-  <project path="frameworks/base" name="mt8163-frameworks-base" revison="YOS3.0" />
+  <project path="frameworks/base" name="mt8163-frameworks-base" revision="YOS3.0" />
   <project path="frameworks/base/docs" name="mt8163-frameworks-base-docs" />
   <project path="frameworks/compile" name="mt8163-frameworks-compile" />
   <project path="frameworks/ex" name="mt8163-frameworks-ex" />
@@ -129,9 +129,9 @@
   <project path="packages/screensavers" name="mt8163-packages-screensavers" />
   <project path="packages/services" name="mt8163-packages-services" />
   <project path="packages/wallpapers" name="mt8163-packages-wallpapers" />  
-  <project path="yongyida" name="mt8163-yongyida" revison="YOS3.0" />
+  <project path="yongyida" name="mt8163-yongyida" revision="YOS3.0" />
   <project path="packages/apps/YYDRobotLauncher3.0" name="yyd-packages-apps-YYDRobotLauncher3.0" remote="private" />
-  <project path="packages/apps/YYDRobotSetting3.0" name="yyd-packages-apps-YYDRobotSetting3.0" remote="private" revison="xiaoyong"/>
+  <project path="packages/apps/YYDRobotSetting3.0" name="yyd-packages-apps-YYDRobotSetting3.0" remote="private" revision="xiaoyong"/>
   <project path="packages/apps/YYDRobotPhoto3.0" name="yyd-packages-apps-YYDRobotPhoto3.0" remote="private"/>
   <project path="packages/apps/YYDRobotKupai3.0" name="yyd-packages-apps-YYDRobotKupai3.0" remote="private"/>
   <project path="packages/apps/YYDRobotDaydayAlarm3.0" name="yyd-packages-apps-YYDRobotDaydayAlarm3.0" remote="private"/>
