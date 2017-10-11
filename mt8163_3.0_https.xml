@@ -104,19 +104,12 @@
   <project path="packages/apps/Tag" name="mt8163-packages-apps-Tag"  />
   <project path="packages/apps/TvSettings" name="mt8163-packages-apps-TvSettings" />
   <project path="packages/apps/Terminal" name="mt8163-packages-apps-Terminal" />
-  <project path="packages/apps/YYDGameBraveJelly" name="yyd-packages-apps-YYDGameBraveJelly" remote="private"/>
-  <project path="packages/apps/YYDGameRunningRich" name="yyd-packages-apps-YYDGameRunningRich" remote="private"/>
-  <project path="packages/apps/YYDGameSaveSheep" name="yyd-packages-apps-YYDGameSaveSheep" remote="private"/>
-  <project path="packages/apps/YYDMoliVideo" name="yyd-packages-apps-YYDMoliVideo" remote="private"/>
-  <project path="packages/apps/YYDRobotAppUpdate" name="yyd-packages-apps-YYDRobotAppUpdate" remote="private"/>
-  <project path="packages/apps/YYDRobotArtMuseum" name="yyd-packages-apps-YYDRobotArtMuseum" remote="private"/>
   <project path="packages/apps/YYDRobotBreathLed" name="yyd-packages-apps-YYDRobotBreathLed" remote="private"/>
   <project path="packages/apps/YYDRobotBreathledService" name="yyd-packages-apps-YYDRobotBreathledService" remote="private"/>
   
   <project path="packages/apps/YYDRobotFactoryTest" name="yyd-packages-apps-YYDRobotFactoryTest" remote="private"/>
   <project path="packages/apps/YYDRobotFloatButton" name="yyd-packages-apps-YYDRobotFloatButton" remote="private"/>
   <project path="packages/apps/YYDRobotFoundPeople" name="yyd-packages-apps-YYDRobotFoundPeople" remote="private"/>
-  <project path="packages/apps/YYDRobotGameCenter" name="yyd-packages-apps-YYDRobotGameCenter" remote="private"/>
   <project path="packages/apps/YYDRobotHappyCastTV" name="yyd-packages-apps-YYDRobotHappyCastTV" remote="private"/>
   <project path="packages/apps/YYDRobotIDHelper" name="yyd-packages-apps-YYDRobotIDHelper" remote="private"/>
   <project path="packages/apps/YYDRobotInfrared" name="yyd-packages-apps-YYDRobotInfrared" remote="private"/>
@@ -125,17 +118,9 @@
   <project path="packages/apps/YYDRobotMotorService" name="yyd-packages-apps-YYDRobotMotorService" remote="private"/>
   <project path="packages/apps/YYDRobotProjectionTouch" name="yyd-packages-apps-YYDRobotProjectionTouch" remote="private"/>
   <project path="packages/apps/YYDRobotProjectorController" name="yyd-packages-apps-YYDRobotProjectorController" remote="private"/>
-  <project path="packages/apps/YYDRobotQrCode" name="yyd-packages-apps-YYDRobotQrCode" remote="private"/>
-  <project path="packages/apps/YYDRobotResourceManager" name="yyd-packages-apps-YYDRobotResourceManager" remote="private"/>
   <project path="packages/apps/YYDRobotSyn" name="yyd-packages-apps-YYDRobotSyn" remote="private"/>
   <project path="packages/apps/YYDRobotTranslation" name="yyd-packages-apps-YYDRobotTranslation" remote="private"/>
   <project path="packages/apps/YYDRobotVideo" name="yyd-packages-apps-YYDRobotVideo" remote="private"/>
-  <project path="packages/apps/YYDRobotVideoPlayer" name="yyd-packages-apps-YYDRobotVideoPlayer" remote="private"/>
-  
-  
-  <project path="packages/apps/YYDRobotWPS" name="yyd-packages-apps-YYDRobotWPS" remote="private"/>
-  <project path="packages/apps/YYDRobotXMMusicSearch" name="yyd-packages-apps-YYDRobotXMMusicSearch" remote="private"/>
-  <project path="packages/apps/YYDRobotMediaPush" name="yyd-packages-apps-YYDRobotMediaPush" remote="private"/>
   <project path="packages/apps/opencv" name="yyd-packages-apps-opencv" remote="private"/> 
   <project path="packages/apps/YYDRobotXYAR" name="yyd-packages-apps-YYDRobotXYAR" remote="private"/>
   <project path="packages/experimental" name="mt8163-packages-experimental"  />
