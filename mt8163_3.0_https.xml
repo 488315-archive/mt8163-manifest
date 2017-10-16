@@ -120,7 +120,6 @@
   <project path="packages/apps/YYDRobotProjectorController" name="yyd-packages-apps-YYDRobotProjectorController" remote="private"/>
   <project path="packages/apps/YYDRobotSyn" name="yyd-packages-apps-YYDRobotSyn" remote="private"/>
   <project path="packages/apps/YYDRobotTranslation" name="yyd-packages-apps-YYDRobotTranslation" remote="private"/>
-  <project path="packages/apps/YYDRobotVideo" name="yyd-packages-apps-YYDRobotVideo" remote="private"/>
   <project path="packages/apps/opencv" name="yyd-packages-apps-opencv" remote="private"/> 
   <project path="packages/apps/YYDRobotXYAR" name="yyd-packages-apps-YYDRobotXYAR" remote="private"/>
   <project path="packages/experimental" name="mt8163-packages-experimental"  />
@@ -144,4 +143,5 @@
   <project path="packages/apps/YYDRobotVoiceMaster3.0" name="yyd-packages-apps-YYDRobotVoiceMaster3.0" remote="private"/>
   <project path="packages/apps/YYDRobotVoiceMainService3.0" name="yyd-packages-apps-YYDRobotVoiceMainService3.0" remote="private"/>	
   <project path="packages/apps/YYDRobotJPush3.0" name="yyd-packages-apps-YYDRobotJPush3.0" remote="private"/>	
+  <project path="packages/apps/YYDRobotVideo3.0" name="yyd-packages-apps-YYDRobotVideo3.0" remote="private"/>
 </manifest>
