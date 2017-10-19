@@ -31,7 +31,7 @@
 	<project path="developers" name="mt8163-developers" />
 	<project path="dalvik" name="mt8163-dalvik" />
 	<project path="cts" name="mt8163-cts" />
- 	<project path="build" name="mt8163-build" >
+ 	<project path="build" name="mt8163-build" revision="YOS3.0">
     		<copyfile src="core/root.mk" dest="Makefile" />
     		<copyfile src="core/copyfile.sh" dest="copyfile.sh" />
     </project>
@@ -39,7 +39,7 @@
     <project path="bionic" name="mt8163-bionic" />
     <project path="art" name="mt8163-art"  />
     <project path="abi" name="mt8163-abi" />
-   <project path="device" name="mt8163-device" />
+   <project path="device" name="mt8163-device" revision="YOS3.0"/>
   <project path="frameworks/av" name="mt8163-frameworks-av" />
   <project path="frameworks/base" name="mt8163-frameworks-base" revision="YOS3.0" />
   <project path="frameworks/base/docs" name="mt8163-frameworks-base-docs" />
