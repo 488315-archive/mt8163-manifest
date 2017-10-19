@@ -122,6 +122,7 @@
   <project path="packages/apps/YYDRobotTranslation" name="yyd-packages-apps-YYDRobotTranslation" remote="private"/>
   <project path="packages/apps/opencv" name="yyd-packages-apps-opencv" remote="private"/> 
   <project path="packages/apps/YYDRobotXYAR" name="yyd-packages-apps-YYDRobotXYAR" remote="private"/>
+  <project path="packages/apps/YYDRobotWPS" name="yyd-packages-apps-YYDRobotWPS" remote="private"/>
   <project path="packages/experimental" name="mt8163-packages-experimental"  />
   <project path="packages/inputmethods" name="mt8163-packages-inputmethods" />
   <project path="packages/providers" name="mt8163-packages-providers" />
