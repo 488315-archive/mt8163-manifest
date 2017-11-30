@@ -146,4 +146,5 @@
   <project path="packages/apps/YYDRobotJPush3.0" name="yyd-packages-apps-YYDRobotJPush3.0" remote="private"/>	
   <project path="packages/apps/YYDRobotVideo3.0" name="yyd-packages-apps-YYDRobotVideo3.0" remote="private"/>
   <project path="packages/apps/YYDRobotXunfeiMusic" name="yyd-packages-app-YYDRobotXunfeiMusic" remote="private"/>
+  <project path="packages/apps/YYDRobotCV" name="yyd-packages-app-YYDRobotCV" remote="private"/>
 </manifest>
