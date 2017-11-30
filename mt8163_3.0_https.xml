@@ -109,7 +109,6 @@
   
   <project path="packages/apps/YYDRobotFactoryTest" name="yyd-packages-apps-YYDRobotFactoryTest" remote="private"/>
   <project path="packages/apps/YYDRobotFloatButton" name="yyd-packages-apps-YYDRobotFloatButton" remote="private"/>
-  <project path="packages/apps/YYDRobotFoundPeople" name="yyd-packages-apps-YYDRobotFoundPeople" remote="private"/>
   <project path="packages/apps/YYDRobotHappyCastTV" name="yyd-packages-apps-YYDRobotHappyCastTV" remote="private"/>
   <project path="packages/apps/YYDRobotIDHelper" name="yyd-packages-apps-YYDRobotIDHelper" remote="private"/>
   <project path="packages/apps/YYDRobotInfrared" name="yyd-packages-apps-YYDRobotInfrared" remote="private"/>
@@ -135,7 +134,6 @@
   <project path="packages/apps/YYDRobotPhoto3.0" name="yyd-packages-apps-YYDRobotPhoto3.0" remote="private"/>
   <project path="packages/apps/YYDRobotKupai3.0" name="yyd-packages-apps-YYDRobotKupai3.0" remote="private"/>
   <project path="packages/apps/YYDRobotDaydayAlarm3.0" name="yyd-packages-apps-YYDRobotDaydayAlarm3.0" remote="private"/>
-  <project path="packages/apps/YYDRobotFaceRecognizer3.0" name="yyd-packages-apps-YYDRobotFaceRecognizer3.0" remote="private"/>
   <project path="packages/apps/YYDRobotMediaResource3.0" name="yyd-packages-apps-YYDRobotMediaResource3.0" remote="private"/>
   <project path="packages/apps/YYDRobotGL1_3.0" name="yyd-packages-app-YYDRobotGL1_3.0" remote="private"/>
   <project path="packages/apps/YYDRobotGL2_3.0" name="yyd-packages-app-YYDRobotGL2_3.0" remote="private"/>
