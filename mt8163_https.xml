@@ -143,6 +143,7 @@
   <project path="packages/apps/YYDRobotXMMusicSearch" name="yyd-packages-apps-YYDRobotXMMusicSearch" remote="private"/>
   <project path="packages/apps/YYDRobotMediaPush" name="yyd-packages-apps-YYDRobotMediaPush" remote="private"/>
   <project path="packages/apps/YYDRobotHeath" name="yyd-packages-apps-YYDRobotHeath" remote="private"/>
+  <project path="packages/apps/YYDRobotCV" name="yyd_package_app_systemservice" remote="private"/>
   
   <project path="packages/apps/opencv" name="yyd-packages-apps-opencv" remote="private"/>
   <project path="packages/apps/YYDRobotXYAR" name="yyd-packages-apps-YYDRobotXYAR" remote="private"/>
