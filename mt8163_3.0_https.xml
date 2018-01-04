@@ -143,6 +143,8 @@
   <project path="packages/apps/YYDRobotVoiceMainService3.0" name="yyd-packages-apps-YYDRobotVoiceMainService3.0" remote="private"/>	
   <project path="packages/apps/YYDRobotJPush3.0" name="yyd-packages-apps-YYDRobotJPush3.0" remote="private"/>	
   <project path="packages/apps/YYDRobotVideo3.0" name="yyd-packages-apps-YYDRobotVideo3.0" remote="private"/>
+  <project path="packages/apps/YYDRobotLauncherEdu" name="yyd-packages-app-YYDRobotLauncherEdu" remote="private"/>
+  <project path="packages/apps/YYDRobotEducation" name="yyd-packages-app-YYDRobotEducation" remote="private"/>
   <project path="packages/apps/YYDRobotXunfeiMusic" name="yyd-packages-app-YYDRobotXunfeiMusic" remote="private"/>
   <project path="packages/apps/YYDRobotCV" name="yyd-packages-app-YYDRobotCV" remote="private"/>
   <project path="packages/apps/SystemService" name="yyd_package_app_systemservice" remote="private"/>
